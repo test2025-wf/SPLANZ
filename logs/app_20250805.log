@@ -1,0 +1,66 @@
+2025-08-05 17:52:55,873 [INFO] Scheduler loop started
+2025-08-05 17:52:55,873 [INFO] Scheduler started
+2025-08-05 17:52:55,885 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.119.2:5000
+2025-08-05 17:52:55,885 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 17:54:48,268 [INFO] Scheduler loop started
+2025-08-05 17:54:48,268 [INFO] Scheduler started
+2025-08-05 17:54:48,291 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.119.2:5000
+2025-08-05 17:54:48,291 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 17:56:01,922 [INFO] Scheduler loop started
+2025-08-05 17:56:01,922 [INFO] Scheduler started
+2025-08-05 17:56:01,936 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.119.2:5000
+2025-08-05 17:56:01,936 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 17:58:32,874 [INFO] Scheduler loop started
+2025-08-05 17:58:32,874 [INFO] Scheduler started
+2025-08-05 17:58:32,883 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.119.2:5000
+2025-08-05 17:58:32,883 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-05 17:58:34,242 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 62, in index
+    lists = dashboard_manager.get_all_lists()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DashboardManager' object has no attribute 'get_all_lists'
+2025-08-05 17:58:34,244 [INFO] 172.31.119.2 - - [05/Aug/2025 17:58:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-08-05 17:58:58,733 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 62, in index
+    lists = dashboard_manager.get_all_lists()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DashboardManager' object has no attribute 'get_all_lists'
+2025-08-05 17:58:58,734 [INFO] 172.31.119.2 - - [05/Aug/2025 17:58:58] "[35m[1mGET / HTTP/1.1[0m" 500 -

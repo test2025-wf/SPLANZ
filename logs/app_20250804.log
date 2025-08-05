@@ -1,0 +1,60 @@
+2025-08-04 12:04:14,916 [INFO] Scheduler loop started
+2025-08-04 12:04:14,916 [INFO] Scheduler started
+2025-08-04 12:04:14,924 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.98.2:5000
+2025-08-04 12:04:14,924 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-04 12:07:10,598 [INFO] Scheduler loop started
+2025-08-04 12:07:10,598 [INFO] Scheduler started
+2025-08-04 12:07:10,603 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.98.2:5000
+2025-08-04 12:07:10,603 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-04 12:28:09,973 [INFO] Scheduler loop started
+2025-08-04 12:28:09,973 [INFO] Scheduler started
+2025-08-04 12:28:10,029 [INFO] Scheduler loop started
+2025-08-04 12:28:10,029 [INFO] Scheduler started
+2025-08-04 12:28:10,034 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.81.130:5000
+2025-08-04 12:28:10,034 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-04 12:28:11,027 [INFO] Scheduler loop started
+2025-08-04 12:28:11,027 [INFO] Scheduler started
+2025-08-04 12:28:12,902 [INFO] Scheduler loop started
+2025-08-04 12:28:12,902 [INFO] Scheduler started
+2025-08-04 12:29:20,776 [INFO] Scheduler loop started
+2025-08-04 12:29:20,776 [INFO] Scheduler started
+2025-08-04 12:29:20,785 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.81.130:5000
+2025-08-04 12:29:20,786 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-04 12:29:25,572 [INFO] Scheduler loop started
+2025-08-04 12:29:25,572 [INFO] Scheduler started
+2025-08-04 12:29:25,577 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.81.130:5000
+2025-08-04 12:29:25,577 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-04 12:30:25,309 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/app.py", line 62, in index
+    lists = dashboard_manager.get_all_lists()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DashboardManager' object has no attribute 'get_all_lists'
+2025-08-04 12:30:25,315 [INFO] 172.31.81.130 - - [04/Aug/2025 12:30:25] "[35m[1mGET / HTTP/1.1[0m" 500 -

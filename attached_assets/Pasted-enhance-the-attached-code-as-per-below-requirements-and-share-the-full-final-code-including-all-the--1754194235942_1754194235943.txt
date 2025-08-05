@@ -1,0 +1,29 @@
+enhance the attached code as per below requirements and share the full final code including all the methods and functions. Also add comments to make the code easily understandable even for a layman with no knowledge of python and coding.
+
+add below functionalities while enhancing the code
+
+Dashboard addition should be easy like it should let user to add dashboard name, dashboard link and dashboard group all together in one window. Also provide a drop down option to chose for dashboard group. Also provide an option to chose multiple groups for one dashboard.
+
+Name the groups as Lists everywhere so that going forward it would be referred as lists
+
+make the UI visually appealing with an option to chose dark and light themes and even should look amazingly good. apply fonts and colors accordingly.
+
+user should also have an option to just take the screenshot. Enhance the water mark of time added on the captured screenshot so that it should be aligned properly and should be more easy to view. Water mark is only needed when chosen just screenshot option. When chosen to  analyze screenshot, no watermark to be added.
+
+Enhance the studio logic.
+
+save the credentials in secrets in encrypted format so that secrets should be not a  human readable. Apply the best possible encryption logic.
+
+if login page does not appear and directly moved to dashboard page, then no need to look for authentication as that gets bypassed.
+
+Enhance the scheduling part. Provide an option to view all the schedules in one place. should be able to create multiple schedules for multiple dashboards with out any hassle.
+
+selecting the time frame is opening as a popup rather if that can be part of main Ui that would be easy to have everything at one place. look for adding that into actual UI.
+
+Refer the best and most robust UIs available and have those best practices implemented into this code.
+
+when clicked on delete dashboard despite the check box is selected, it says no dashboard selected.
+
+while adding dashboard, shown a drop down to choose from existing lists or let the user to add a list
+
+provide an option to edit the existing added dashboard/list
